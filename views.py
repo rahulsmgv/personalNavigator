@@ -1,0 +1,4 @@
+from django.http import HttpResponse
+
+def home(request):
+    return HttpResponse('''<h1 align='center'>Personal Navigator</h1><hr> <br><h3><a href="http://gen.lib.rus.ec/">Library Genesis</a></h3><br><h3><a href="https://youtube.com/">Youtube</a></h3><br><h3><a href="https://grasshopper.app/?utm_source=HPP&utm_medium=Owned&utm_campaign=Grasshopper">Grasshopper Coding Start</a></h3><br><h3><a href="https://a2oj.com/">A2J online coding judge</a></h3><br><h3><a href="https://www.google.com/search?rlz=1C1CHBF_enIN872IN872&sxsrf=ACYBGNTrZoZT8aPD1YwAlkJiHc7JzLLr3A%3A1571716899002&ei=In-uXergPIf0vgTmwqSABw&q=india+super+league&oq=india+super+league&gs_l=psy-ab.3.0.0i131i20i263i70i253j0i131j0i131i20i263j0l2j0i10j0j0i131j0j0i131.5148.18907..24979...3.2..4.369.6080.0j7j16j2......0....1..gws-wiz.....10..0i71j35i304i39j35i362i39j35i39j0i10i67j0i67j0i20i263j0i22i10i30.rgf7Xk-g0uE">Indian Super League</a></h3><br>''')
